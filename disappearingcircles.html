@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+    <title>Javascript</title>
+
+    <style type="text/css">
+    
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        float:left;
+        margin-right: 50px;
+    }
+
+    #magenta {
+        background-color: magenta;
+    }
+
+    #cyan{
+        background-color: cyan;
+    }
+
+    #yellow {
+        background-color: yellow;
+    }
+    
+    </style>
+</head>
+
+<body> 
+    <div class="circle" id="magenta"></div>
+
+    <div class="circle" id="cyan"></div>
+
+    <div class="circle" id="yellow"></div>
+   
+   <script type="text/javascript">
+
+   document.getElementById("magenta").onclick = function() {
+       document.getElementById("magenta").style.display = "none";
+   }
+   document.getElementById("cyan").onclick = function() {
+       document.getElementById("cyan").style.display = "none";
+   }
+   document.getElementById("yellow").onclick = function() {
+       document.getElementById("yellow").style.display = "none";
+   }
+    </script>
+</body>
+</html>
